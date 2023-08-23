@@ -11,6 +11,20 @@ El objetivo del proyecto es crear una API que permita realizar un CRUD de usuari
 - JWT
 - Werkzeug (para hashear las contraseñas)
 
+## CREAR ENTORNO VIRTUAL (OPCIONAL)
+
+Para crear un entorno virtual debemos tener instalado Python y haberlo agregado al path, para luego ejecutar el siguiente comando:
+
+`pip install virtualenv`
+
+Posteriormente, pararse en el directorio donde descargamos el proyecto y colocar el siguiente comando:
+
+`virtualenv <nombre_entorno>`
+
+Para activar el entorno:
+
+`.\<nombre_entorno>\Scripts\activate`
+
 ## INSTALACIÓN DE DEPENDENCIAS
 
 Para instalar las dependencias del proyecto, se recomienda crear un entorno virtual con `virtualenv` y luego ejecutar el siguiente comando:
